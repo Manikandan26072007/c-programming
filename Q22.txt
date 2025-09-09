@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+int marks[5];
+
+   
+    printf("Enter marks for Subject 1: ");
+    scanf("%d", &marks[0]);
+
+    printf("Enter marks for Subject 2: ");
+    scanf("%d", &marks[1]);
+
+    printf("Enter marks for Subject 3: ");
+    scanf("%d", &marks[2]);
+
+    printf("Enter marks for Subject 4: ");
+    scanf("%d", &marks[3]);
+
+    printf("Enter marks for Subject 5: ");
+    scanf("%d", &marks[4]);
+
+    
+    printf("\nYour marks are:\n");
+    printf("Subject 1: %d\n", marks[0]);
+    printf("Subject 2: %d\n", marks[1]);
+    printf("Subject 3: %d\n", marks[2]);
+    printf("Subject 4: %d\n", marks[3]);
+    printf("Subject 5: %d\n", marks[4]);
+
+    return 0;
+}
