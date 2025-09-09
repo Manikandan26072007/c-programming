@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    printf("144/4 ramasamy nagar udumakpet\n");
+    printf("Apt 07\n");
+    printf("Coimbatore, TAMILNADU 123456\n");
+    printf("INDIA\n");
+    return 0;
+}
